@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_catalogs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="pptik.project.biodiversitywarriors.AddCatalogsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <Spinner
+                android:id="@+id/pilKatPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/spesies"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Spesies"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textStyle=""
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"/>
+
+            <EditText
+                android:id="@+id/namalatin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Nama Latin"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:gravity="top"
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/namalokal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Nama Lokal"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textStyle=""
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/habitat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Habitat"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textStyle=""
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/distribusi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Distribusi"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textStyle=""
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"
+                android:layout_marginTop="12dp"/>
+
+            <EditText
+                android:id="@+id/manfaat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_login_bg"
+                android:hint="Manfaat/Keunikan"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textStyle=""
+                android:textColor="@color/bg_register"
+                android:textColorHint="@color/bg_register"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_menu_camera"
+                    android:id="@+id/btn_pilih"
+                    android:background="@null"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_set"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300dip" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/submitPost"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:background="@drawable/btn_submit_rounded"
+                    android:textStyle="bold"
+                    android:textColor="@color/bg_register"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

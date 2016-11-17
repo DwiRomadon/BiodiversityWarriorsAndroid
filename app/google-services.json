@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "232791063480",
+    "firebase_url": "https://biodiversitywarriors-98de7.firebaseio.com",
+    "project_id": "biodiversitywarriors-98de7",
+    "storage_bucket": "biodiversitywarriors-98de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232791063480:android:7411387300cfaa49",
+        "android_client_info": {
+          "package_name": "pptik.project.biodiversitywarriors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232791063480-6duv37sn7ovebimjejp1rn6p10u2jkcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeTb0YsZtm_hpp9fmH05akQgEhFCHs-q0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
